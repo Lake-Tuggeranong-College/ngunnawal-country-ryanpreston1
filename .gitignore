@@ -130,7 +130,10 @@ dmypy.json
 
 # idea folders
 .idea/
-
 .idea/misc.xml
 .idea/NgunnawalCountryFlask.iml
+
+# MacOS files
+**/.DS_Store
+.DS_Store
 
