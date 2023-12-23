@@ -10,12 +10,12 @@ The presentations are written in markdown and can be viewed in a number of ways:
 
 Open Visual Studio Code on your computer, and install the extension linked above. Then click the Preview button to open the presentation.
 
-![Marp Preview](./images/week1/marpPreviewOpen.png)
+![Marp Preview](./images/readme/marpPreviewOpen.png)
 
 and you should be presented with this:
 
-![Presentation](./images/week1/marpPreviewDisplayed.png)
+![Presentation](./images/readme/marpPreviewDisplayed.png)
 
 2 - On Github, however you will only be able to read the raw markdown, not as a presentation.
 
-![Github Rendering](./images/week1/githubPreview.png)
+![Github Rendering](./images/readme/githubPreview.png)
