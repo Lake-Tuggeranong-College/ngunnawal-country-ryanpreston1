@@ -2,6 +2,12 @@
 marp: true
 theme: academic
 paginate: true
+style: |
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
 ---
 <!-- _footer: Website Development, Remote Learning -->
 
@@ -46,6 +52,9 @@ Accept the Github Classroom Assignment (link on subject website)
 
 This site will be used for project management.
 
+---
+
+![bg](./images/week1/notion.png)
 
 --- 
 <!-- _header: Permissions -->
@@ -53,9 +62,14 @@ This site will be used for project management.
 
 # Discord
 
-- Log into the Discord server. Introduce yourself (name & class) and you will be assigned to the correct class.
+- Log into the Discord server. 
+- Introduce yourself (name & class) and you will be assigned to the correct class.
 
 Discord will be used for communication and collaboration.
+
+---
+
+![bg](./images/week1/discord.png)
 
 
 ---
