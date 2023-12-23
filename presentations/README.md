@@ -17,3 +17,5 @@ and you should be presented with this:
 ![Presentation](./images/week1/marpPreviewDisplayed.png)
 
 2 - On Github, however you will only be able to read the raw markdown, not as a presentation.
+
+![Github Rendering](./images/week1/githubPreview.png)
