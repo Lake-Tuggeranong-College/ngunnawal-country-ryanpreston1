@@ -13,3 +13,12 @@ def history():  # put application's code here
 
 if __name__ == '__main__':
     app.run()
+
+@app.route('/gallery')
+def gallery():  # put application's code here
+    return render_template("gallery.html", title="Photo Gallery")
+
+  
+    @app.route('/contact')
+ def contact():  # put application's code here
+    return render_template("contact.html", title="Contact Us")
