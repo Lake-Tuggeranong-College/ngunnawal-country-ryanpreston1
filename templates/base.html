@@ -28,3 +28,35 @@
       </div>
     </div>
   </nav>
+
+
+  <div class="container-fluid"> 
+    
+    <div class="row">
+    <div class="col">
+  {% block rowOnecontent %}
+  {% endblock %}
+    </div> 
+        </div>
+       
+        div class="row">
+        <div class="col-4">
+      {% block rowTwoColOnecontent %}
+      {% endblock %}
+        </div> 
+
+        div class="row">
+    <div class="col-8">
+  {% block rowTwoColTwocontent %}
+  {% endblock %}
+    </div> 
+
+    div class="row">
+    <div class="col"></div>
+  {% block rowThreecontent %}
+  {% endblock %}
+    </div> 
+   </div>
+  </body>
+
+  </html>
