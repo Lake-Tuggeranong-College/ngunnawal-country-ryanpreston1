@@ -1,19 +1,35 @@
 {% extends "base.html" %}
 
-{% block rowOneContent %} 
-  <h1>Welcome to the Home page</h1>
+{% block pageCSS %}
+<link rel="stylesheet" href="/static/site.css" />
+
+<style>
+  h1 {
+    color: red;
+  }
+
+</style>
+{% endblock %}
+
+{% block rowOneContent %}
+  <h1 class="mycss">Welcome to the Home Page</h1>
 {% endblock %}
 
 {% block rowTwoColOneContent %}
-  <h2>News</h2>
-  <p> Some news about the company </p>
+  <h2 class="mycss">Welcome to Ngunnawal Country</h2>
+
+  <p>Ngunnawal is the Country in the Canberra and surrounding areas. The Ngunnawal people are the original owners of this land. We pay respects to Aboriginal leaders, past, present and emerging.</p>
+
+
+  WARNING: Aboriginal and Torres Strait Islander viewers are warned that the following website may contain images and voices of deceased persons.
 {% endblock %}
 
 {% block rowTwoColTwoContent %}
-  <h2>Events</h2>
-  <p>Some events that are coming up</P>
+  <h2>Welcome to our site</h2>
+  <p class="mycss">This site will highlight the best parts of this fantastic land of Ngunnawal people.</p>
 {% endblock %}
 
-{% block rowThreeContent %} 
-  <p>Copyright 2024</p>
-{% endblock %} 
+{% block rowThreeContent %}
+
+  <div class="footerText">Copyright 2024.</div>
+{% endblock %}
