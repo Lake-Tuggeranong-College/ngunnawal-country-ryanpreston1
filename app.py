@@ -14,7 +14,7 @@ from forms import ContactForm, LoginForm, RegistrationForm, ResetPasswordForm # 
 from models import User, Contact # type: ignore
 
 @app.route('/')
-def hello_world():
+def homepage():
     return render_template("index.html", title="Homepage")
 
 @app.route('/gallery')
