@@ -2,23 +2,24 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-
 @app.route('/')
-def hello_world():  # put application's code here
+def hello_world():
     return render_template("index.html", title="Homepage")
 
-@app.route('/history')
-def history():  # put application's code here
-    return render_template("history.html", title="History of Ngunnawal")
 
-if __name__ == '__main__':
-    app.run()
+@app.route('/contact')
+def contact():
+    return render_template("contact.html", title="Contact Us") 
 
 @app.route('/gallery')
-def gallery():  # put application's code here
+def gallery():
     return render_template("gallery.html", title="Photo Gallery")
 
-  
-    @app.route('/contact')
- def contact():  # put application's code here
-    return render_template("contact.html", title="Contact Us")
+
+@app.route('/history')
+def history():
+    return render_template("history.html", title="History of Ngunnawal") 
+
+@app.route('/grid')
+def grid():
+    return render_template("grid.html", title="Bootstrap Grid") 
