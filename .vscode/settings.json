@@ -5,5 +5,10 @@
         "https://cunhapaulo.github.io/style/socrates.css",
         "https://raw.githubusercontent.com/cunhapaulo/marpstyle/main/style/jobs.css",
     ],
-    "markdown.marp.enableHtml": true
+    "markdown.marp.enableHtml": true,
+    "cSpell.words": [
+        "Ngunnawal",
+        "passwordreset",
+        "sqlalchemy"
+    ]
 }
